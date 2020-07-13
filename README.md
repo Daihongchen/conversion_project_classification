@@ -8,3 +8,7 @@ Though random forest has many advantages such as not sensitive to outliers, take
 
 The initial result shows the logistic regression has a slightly higher performance than random forest. 
 
+In addition, I also applied deep learning, using tensorflow keras to build the model. The model performance is similar as the logistic regression model with an accuracy score of 0.9855. 
+
+
+
