@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box] ;
+rankdir=LR ;
+0 [label="total_pages_visited <= 1.682\ngini = 0.376\nsamples = 100.0%\nvalue = [0.749, 0.251]"] ;
+1 [label="total_pages_visited <= 1.084\ngini = 0.095\nsamples = 94.0%\nvalue = [0.95, 0.05]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=-45, headlabel="True"] ;
+2 [label="gini = 0.045\nsamples = 87.6%\nvalue = [0.977, 0.023]"] ;
+1 -> 2 ;
+3 [label="gini = 0.435\nsamples = 6.5%\nvalue = [0.681, 0.319]"] ;
+1 -> 3 ;
+4 [label="total_pages_visited <= 2.28\ngini = 0.188\nsamples = 6.0%\nvalue = [0.105, 0.895]"] ;
+0 -> 4 [labeldistance=2.5, labelangle=45, headlabel="False"] ;
+5 [label="gini = 0.438\nsamples = 2.9%\nvalue = [0.323, 0.677]"] ;
+4 -> 5 ;
+6 [label="gini = 0.072\nsamples = 3.1%\nvalue = [0.037, 0.963]"] ;
+4 -> 6 ;
+}
